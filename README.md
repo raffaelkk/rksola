@@ -25,3 +25,4 @@ jar --create --file build/minimal-lambda-handler.jar -C build/classes .
 ```
 
 Deploy with handler class `MinimalLambdaHandler::handleRequest` and runtime `java25`.
+POC Note: This Lambda custom image has been pushed and can be used as the baseline image for future AWS Lambda container experiments.
